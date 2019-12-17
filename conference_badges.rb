@@ -17,9 +17,15 @@ Puts "Hello, my name is #{speaker}"
 end
 
 
-def assign_rooms
-  speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  rooms = [1, 2, 3, 4, 5, 6, 7]
+def assign_rooms(speakers)
+  speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"] 
+  arr = []
+  room = 1
+  speakers.each do { |speaker|
+                                                  arr << "#{speakers = room + 1}
+    room += 1
+  end
+  puts "Hello #{speakers}! You'll be assigned to room #{arr}"
   
   
   
