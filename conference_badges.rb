@@ -21,7 +21,7 @@ def assign_rooms(speakers)
   speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"] 
   arr = []
   room = 1
-  speakers.each do { |speaker|
+  speakers.each do { |speaker| 
                                                   arr << "#{speakers = room + 1}
     room += 1
   end
