@@ -21,13 +21,12 @@ def assign_rooms(speakers)
   speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"] 
   arr = []
   room = 1
-  speakers.each do { |speaker| 
-                                                  arr << "#{speakers = room + 1}
-    room += 1
+  speakers.each do { |speaker| arr << "#{speaker = room + 1}" }
+  room += 1
   end
-  puts "Hello #{speakers}! You'll be assigned to room #{arr}"
-  
-  
-  
+  puts "Hello #{speaker}! You'll be assigned to room #{arr}"
   
 end
+
+def printer
+  print 
